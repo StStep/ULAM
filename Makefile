@@ -97,7 +97,7 @@ export DEFINES
 
 # Compilation flags from top level
 export CFLAGS
-CFLAGS+=-g2 -ansi -Wall -pedantic -Werror -Wformat
+CFLAGS+=-g2 -std=gnu++11 -ansi -Wall -pedantic -Wformat
 #CFLAGS+=-DNDEBUG
 
 # Libs from top level
